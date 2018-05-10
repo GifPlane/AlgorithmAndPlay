@@ -1,11 +1,9 @@
-#Algorithm Play Online
+Algorithm Play Online
 
-/MyLeetCode/ 是LeetCode 上面的题
+/MyLeetCode/ Is the question of LeetCode
 
-/algorithm/ 是一些经典的算法
+/algorithm/ Are some classic algorithms
 
-coding-pages分支是pages项目,使用webGL在线演示算法,正在开发中。
-
-pages首页：www.gifplane.com
+pages：www.gifplane.com
 
 
