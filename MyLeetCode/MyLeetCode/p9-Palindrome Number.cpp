@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+//åˆ¤æ–­ä¸€ä¸ªæ•°æ˜¯å¦å¯¹ç§°æ¯”å¦‚12321
+
 class Solution {
 public:
 	bool isPalindrome(int x) {
@@ -8,7 +10,7 @@ public:
 			return false;
 
 		int res = 0;
-		while (x > res){ //µ«x <= resµÄÊ±ºò£¬ÒÑ¾­Ö´ÐÐÁËÒ»°ëÁË£¬¿ÉÒÔÖ±½Ó±È½ÏÁ½±ßµÄÖµ¡£
+		while (x > res){ //ä½†x <= resçš„æ—¶å€™ï¼Œå·²ç»æ‰§è¡Œäº†ä¸€åŠäº†ï¼Œå¯ä»¥ç›´æŽ¥æ¯”è¾ƒä¸¤è¾¹çš„å€¼ã€‚
 			res = res * 10 + x % 10;
 			x /= 10;
 		}
