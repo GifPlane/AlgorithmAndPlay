@@ -10,6 +10,9 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="s1-findTheSame.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{30617084-14B9-4270-9E88-C344CC4A97A3}</ProjectGuid>
     <RootNamespace>MyLeetCode</RootNamespace>
